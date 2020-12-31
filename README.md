@@ -15,5 +15,12 @@ chmod +x quality-data-prep.sh
 Now there are 2 new files in the data directory: data-gen-prep.tsv and data-chr-prep.tsv. These are used as input files in R script. The R script (quality.R) will create resulting graphs. Run it for example in RStudio.
 
 ## Resulting ggplot2 graphs
+These are the resulting graph made by `quality.R` script.
+### Resulting graph of distribution of quality over the whole genome
+
+![](Rplot-gen.png)
+
+### Resulting graph of distribution of quality over the chromosomes
+The graph is made for the first five chromosomes (chr1, chr2, chr3, chr4, chr5) in order to compare them. It is not possible to picture too many chromosomes at once, so the first five were chosen as a sample. 
+
 ![](Rplot-chrms.png)
-!(Rplot-gen.png)
