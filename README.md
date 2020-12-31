@@ -15,5 +15,5 @@ chmod +x quality-data-prep.sh
 Now there are 2 new files in the data directory: data-gen-prep.tsv and data-chr-prep.tsv. These are used as input files in R script. The R script (quality.R) will create resulting graphs. Run it for example in RStudio.
 
 ## Resulting ggplot2 graphs
-![UNIX-exam](UNIX-exam/Rplot-chrms.png)
+![](Rplot-chrms.png)
 !(Rplot-gen.png)
