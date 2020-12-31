@@ -16,11 +16,12 @@ Now there are 2 new files in the data directory: data-gen-prep.tsv and data-chr-
 
 ## Resulting ggplot2 graphs
 These are the resulting graph made by `quality.R` script.
-### Resulting graph of distribution of quality over the whole genome
+### Resulting graph over the whole genome
+The graph displays the distribution of quality over the whole genome.
 
 ![](Rplot-gen.png)
 
-### Resulting graph of distribution of quality over the chromosomes
-The graph is made for the first five chromosomes (chr1, chr2, chr3, chr4, chr5) in order to compare them. It is not possible to picture too many chromosomes at once, so the first five were chosen as a sample. 
+### Resulting graph over the chromosomes
+The graph displays the distribution of quality over the chromosomes. It is made for the first five chromosomes (chr1, chr2, chr3, chr4, chr5) in order to compare them. It is not possible to picture too many chromosomes at once, so the first five were chosen as a sample. 
 
 ![](Rplot-chrms.png)
